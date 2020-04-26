@@ -56,8 +56,6 @@ class TicTacToe
 end
   return turn
 end
-  def turn_count
-  end
 
 
 def won
