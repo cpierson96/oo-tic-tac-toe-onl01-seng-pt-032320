@@ -49,7 +49,7 @@ class TicTacToe
 
   def turn_count
     turn = 0
-    @board.count{|square| square != ""}
+    if index == "X" || index == "O"
     turn += 1
   end
 
