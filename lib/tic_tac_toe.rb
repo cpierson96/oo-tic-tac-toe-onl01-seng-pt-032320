@@ -34,7 +34,7 @@ class TicTacToe
   def turn
   end
 
-  turn_count
+  def turn_count
   end
 
 def won
@@ -54,7 +54,5 @@ end
 
 def play
 end
-
-end 
 
 end
