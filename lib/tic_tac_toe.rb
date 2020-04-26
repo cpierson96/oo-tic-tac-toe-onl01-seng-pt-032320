@@ -34,6 +34,7 @@ class TicTacToe
   end
 
   def turn
+    input = gets.strip
   end
 
   def turn_count
