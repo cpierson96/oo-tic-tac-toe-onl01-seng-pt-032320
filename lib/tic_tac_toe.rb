@@ -52,7 +52,9 @@ class TicTacToe
     if index == "X" || index == "O"
     turn += 1
   end
-
+end
+  return turn 
+end
   def turn_count
   end
 
