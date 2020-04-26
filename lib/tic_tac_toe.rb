@@ -41,7 +41,7 @@ class TicTacToe
       move(converted_input)
       display_board
     else
-      turn 
+      turn
     end
 
   end
