@@ -16,8 +16,8 @@ class TicTacToe
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
-  a = TicTacToe.new
-  a.display_board
+  # a = TicTacToe.new
+  # a.display_board
   def input_to_index(user_input)
     user_input.to_i - 1
   end
@@ -35,6 +35,7 @@ class TicTacToe
 
   def turn
     input = gets.strip
+    input.to_i
   end
 
   def turn_count
