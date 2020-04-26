@@ -35,7 +35,11 @@ class TicTacToe
 
   def turn
     input = gets.strip
-    input.to_i
+    converted_input = input.to_i
+
+    if valid_move?(converted_input)
+      move(converted_input)
+      
   end
 
   def turn_count
