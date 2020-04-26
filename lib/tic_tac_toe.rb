@@ -24,7 +24,7 @@ class TicTacToe
   def move(index, token)
     @board[index] = token
   end
-
+end
   def position_taken
   end
 
@@ -35,7 +35,7 @@ class TicTacToe
   end
 
   turn_count
-end
+  end
 
 def won
 end
