@@ -58,7 +58,7 @@ end
 end
 
 
-def won
+def won?
 end
 
 def full?
