@@ -26,7 +26,7 @@ class TicTacToe
   end
 
   def position_taken?(index)
-    @board[index].empty?
+    @board[index] != " "
   end
 
   def valid_move?
