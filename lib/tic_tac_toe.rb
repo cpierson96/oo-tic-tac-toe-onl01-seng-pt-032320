@@ -39,6 +39,10 @@ class TicTacToe
 
     if valid_move?(converted_input)
       move(converted_input)
+      display_board 
+    else
+      turn 
+    end 
       
   end
 
